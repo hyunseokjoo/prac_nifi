@@ -41,7 +41,65 @@
 
 
 # Nifi 설치 하고 구동해보기 
-- [설치하고 구동해보기](https://magpienote.tistory.com/140)
+- apache nifi 홈페이지 접속 후 zip 파일 다운로드
+<img width="1313" alt="apache nifi" src="https://user-images.githubusercontent.com/49854618/162451929-84e96d16-6427-412e-a5de-7a3d950dffe6.png">
+- 개인이 사용할 폴더 생성 및 압축 해제
+<img width="907" alt="downNifi" src="https://user-images.githubusercontent.com/49854618/162452038-c1b75b23-64ae-42f4-ae25-c8731771c72a.png">
+
+- 처음 압충 해제 시 폴더 구조
+
+```bash
+기본 프로젝트 생성 시 파일구조
+nifi
+├── bin             - batch파일 이나 구동하는 shell파일 폴더
+├── conf            - 기본정보가 있는 폴더 nifi.properties등
+├── docs            - web ui html 및 doc관련 내용 폴더
+├── extensions      - 확장프로그램 저장소 
+├── lib             - nifi관련 nar, jar파일 폴더
+├── LICENSE
+├── NOTICE
+└── README
+```
+- 서버 구동 - 생성폴더주소/bin/nifi.sh start (백그라운드 실행)
+<img width="488" alt="startServer" src="https://user-images.githubusercontent.com/49854618/162452241-4b12ef7e-f943-4f86-8c41-95d905b274f3.png">
+
+- https://localhost:8443/nifi로 접속
+<img width="1436" alt="startingPage" src="https://user-images.githubusercontent.com/49854618/162452347-811f678b-80d3-4323-8102-ab7a953c6da4.png">
+
+- 서버 구동후 파일 폴더 구조
+<img width="917" alt="서버시작후 파일 바뀐것" src="https://user-images.githubusercontent.com/49854618/162452307-dcfb224d-1a37-4953-a3ef-4edd9edcbbf7.png">
+
+```bash
+서버 구동 후 폴더 구조
+nifi
+├── bin                     - batch파일 이나 구동하는 shell파일 폴더
+├── conf                    - 기본정보가 있는 폴더 nifi.properties등
+├── content_repository      - flowfile에서 사용하는 content 저장소
+├── database_repository
+├── docs                    - web ui html 및 doc관련 내용 폴더
+├── extensions              - 확장프로그램 저장소 
+├── flowfile_repository     - nifi에서 생성한 dataflow 저장소
+├── lib                     - nifi관련 nar, jar파일 폴더
+├── logs                    - nifi 서버 구동 시 생성되는 user와 app로그 등이 여기 있음 (generated user id, password가 여기 존재)
+├── provenance_repository   - dataflow에서 사용하는 content중 검증된 내용이 여기에 저장되고, 사용됨
+├── run                     - 서버 구동 정보
+├── state                   
+├── work                     
+│   ├── docs                - nifi processor에서 사용하는 components들이 있는 폴더
+│   ├── jetty             
+│   ├── nar                 - 위에 docs에서 사용하는 compoenets들 nar파일 있는 폴더
+├── LICENSE
+├── NOTICE
+└── README
+```
+- 서버 상태 확인 - 생성폴더주소/bin/nifi.sh status
+<img width="489" alt="runningServer" src="https://user-images.githubusercontent.com/49854618/162452407-1f94b811-3c6b-4a1c-826c-241d6c3aeaef.png">
+
+- 서버 중지 - 생성폴더주소/bin/nifi.sh stop
+<img width="484" alt="stopServer" src="https://user-images.githubusercontent.com/49854618/162452435-81ea45df-dfee-45f0-a57c-e7194f24947d.png">
+
+- 서버 중지 - 생성폴더주소/bin/nifi.sh run (포그라운드 서버 구동 방식)
+- 사용자 만들기 - bin/nifi.sh set-single-user-credentials <Username> <Password 12자 이상>
 
 # Nifi 웹 페이지
 - 기본 페이지 구성   
