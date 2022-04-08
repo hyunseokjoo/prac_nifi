@@ -39,3 +39,13 @@
 - Primary Node - 여러 노드에서 Processor가 실행 되지 않고, 특정 단일 노드에서만 실행하고자 할 때 사용하는 대표 노드
 - ZooKeeper Server - 위와 같은 역할은 ZooKeeperServer에서 자동으로 선출 되며, NiFi1.0부터 Zero-MasterClustering 이 적용되어 클러스터 내에 NiFi 노드들 중 한대가 자동으로 Cluster Coordinator와 Primary Node가 된다.
 
+
+# Nifi 설치 하고 구동해보기 
+- [설치하고 구동해보기](https://magpienote.tistory.com/140)
+
+# Nifi 웹 페이지
+- [웹 페이지 구성 둘러보기](https://magpienote.tistory.com/141)
+
+# NiFi 실습  
+- [GetFile, Putfile을 이용한 간단한 데이터 이관하는 패턴 만들어보기](https://magpienote.tistory.com/142)
+- [Csv to Json 데이터 변형해보기(Controller 활용해보기)]()
