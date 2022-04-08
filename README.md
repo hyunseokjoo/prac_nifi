@@ -44,7 +44,18 @@
 - [설치하고 구동해보기](https://magpienote.tistory.com/140)
 
 # Nifi 웹 페이지
-- [웹 페이지 구성 둘러보기](https://magpienote.tistory.com/141)
+- 기본 페이지 구성   
+<img width="1434" alt="스크린샷 2022-04-06 오후 5 58 04" src="https://user-images.githubusercontent.com/49854618/162451176-25a10c7c-455d-4b82-9b4f-331fdee41123.png">
+
+- Components 툴바   
+<img width="501" alt="스크린샷 2022-04-06 오후 6 03 56" src="https://user-images.githubusercontent.com/49854618/162451207-4f128da7-91b1-453d-8a82-6738b7d66016.png">
+
+- 드래그 앤 드랍으로 컴포넌트 사용가능
+- 상태 표시줄 - 구동 되고 있는, 멈춘, 오류가 있는 프로세서들 표시
+- Navigation - 작업 공간에 있는 내용 모형으로 파악 가능
+- Component 작업 패널 - 선택한 컴포넌트들 구동 및 작동 멈춤 등등의 기능 사용 가능 multi select 가능
+- Flow Tree - processor group 및 flow 간 트리 작업 표시
+- 메뉴 - component summary, counter, controller setting 등 전체적인 작업 관리 가능한 탭
 
 # NiFi 실습  
 - [GetFile, Putfile을 이용한 간단한 데이터 이관하는 패턴 만들어보기](https://magpienote.tistory.com/142)
