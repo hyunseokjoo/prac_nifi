@@ -118,3 +118,4 @@ nifi
 # NiFi 실습  
 - [GetFile, Putfile을 이용한 간단한 데이터 이관하는 패턴 만들어보기](https://magpienote.tistory.com/142)
 - [Csv to Json 데이터 변형해보기(Controller 활용해보기)](https://magpienote.tistory.com/143)
+- [DBConnector Controller 만들기](https://magpienote.tistory.com/152)
