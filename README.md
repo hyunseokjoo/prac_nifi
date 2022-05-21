@@ -119,7 +119,7 @@ nifi
 - [GetFile, Putfile을 이용한 간단한 데이터 이관하는 패턴 만들어보기](https://magpienote.tistory.com/142)
 - [Csv to Json 데이터 변형해보기(Controller 활용해보기)](https://magpienote.tistory.com/143)
 - [DBConnector Controller 만들기](https://magpienote.tistory.com/152)
-- FlowFile의 Attribute와 Content 알아보기
+- [FlowFile의 Attribute와 Content 알아보기](https://magpienote.tistory.com/153)
 - RouteOnAttribute Processor 알아보기
 - ExecuteStreamCommand Processor 알아보기(Flow 도중 Bash, Script NIFI에서 실행하기)
 - 
