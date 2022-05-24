@@ -121,7 +121,7 @@ nifi
 - [DBConnector Controller 만들기](https://magpienote.tistory.com/152)
 - [FlowFile의 Attribute와 Content 알아보기](https://magpienote.tistory.com/153)
 - [RouteOnAttribute Processor 알아보기](https://magpienote.tistory.com/154)
-- ExecuteStreamCommand Processor 알아보기(Flow 도중 Bash, Script NIFI에서 실행하기)
+- [ExecuteStreamCommand Processor 알아보기(Flow 도중 Bash, Script NIFI에서 실행하기)](https://magpienote.tistory.com/157)
 - [template을 이용하여 백업하기](https://magpienote.tistory.com/161)
 
 
