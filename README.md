@@ -124,6 +124,6 @@ nifi
 - [ExecuteStreamCommand Processor 알아보기(Flow 도중 Bash, Script NIFI에서 실행하기)](https://magpienote.tistory.com/157)
 - [template을 이용하여 백업하기](https://magpienote.tistory.com/161)
 - [ListenHttp processor 알아보기](https://magpienote.tistory.com/164)
-- Parameter를 설정하여 전역 변수처럼 사용하기
+- [Parameter를 설정하여 전역 변수처럼 사용하기](https://magpienote.tistory.com/165)
 
 
